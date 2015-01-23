@@ -16,6 +16,7 @@
 
         <!-- Custom CSS -->
         <link href="css/grayscale.css" rel="stylesheet">
+        <link href="css/bootstrap-select.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -116,7 +117,6 @@
                                 <ul class="nav">    
                                     <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><small>Get Places by Alphabet</small></a></li>
                                     <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><small>Hot Searches</small></a></li>
-                                    <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><small>Custom Search</small></a></li>
                                 </ul>
                             </div>
                             <!-- Wrapper for slides -->
@@ -127,7 +127,7 @@
                                             <div>
                                                 Click on a character to get all the places starting with that character.
                                                 <br/>
-                                                <span class="btn btn-default btn-lg" style="width:50px;"><span class="network-name">A</span></span>  
+                                                <span class="btn btn-default btn-lg" style="width:50px;"><span class="network-name" onclick="abc()">A</span></span>  
                                                 <span class="btn btn-default btn-lg" style="width:50px;"><span class="network-name">B</span></span>   
                                                 <span class="btn btn-default btn-lg" style="width:50px;"><span class="network-name">C</span></span>   
                                                 <span class="btn btn-default btn-lg" style="width:50px;"><span class="network-name">D</span></span>   <br/><br/>
@@ -175,12 +175,16 @@
                                     </div>             
                                 </div> 
                                 <div class="item">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <h2>Slide 1</h2>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                                    <div style="position: relative">
+                                        <div style="height: 500px;">
+                                            <br/>
+                                            <select class="selectpicker">
+                                                <option>A</option>
+                                                <option>B</option>
+                                                <option>C</option>
+                                            </select>
                                         </div>
-                                    </div>            
+                                    </div>           
                                 </div>  
                                 <!-- End Item -->
                             </div>
@@ -236,6 +240,8 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/grayscale.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+        <script src="js/plunder.js"></script>
 
     </body>
 
