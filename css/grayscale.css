@@ -215,7 +215,7 @@ a:focus {
 }
 
 @-webkit-keyframes pulse {    
-    0 {
+    0% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
@@ -232,7 +232,7 @@ a:focus {
 }
 
 @-moz-keyframes pulse {    
-    0 {
+    0% {
         -moz-transform: scale(1);
         transform: scale(1);
     }
@@ -416,4 +416,9 @@ body {
         color-stop(.5, transparent), to(transparent));
 }
 
+
+.carousel-disabled {
+    pointer-events: none;
+    cursor: default;
+}
 //END: Scroll Styling
