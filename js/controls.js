@@ -9,7 +9,7 @@ function intializeLoader() {
         height: 200, // height of the loader in pixels
         displayOnLoad: true,
         percentage: 0, // percent of the value, between 0 and 100
-        speed: 50, // miliseconds between animation cycles, lower value is faster
+        speed: 10, // miliseconds between animation cycles, lower value is faster
         roundedLine: true, // whether the line is rounded, in pixels
         showRemaining: true, // how the remaining percentage (100% - percentage)
         fontFamily: 'Helvetica', // name of the font for the percentage
@@ -18,7 +18,7 @@ function intializeLoader() {
         diameter: 90, // diameter of the circle, in pixels
         fontColor: 'rgba(33, 154, 179, 1)', // color of the font in the center of the loader, any CSS color would work, hex, rgb, rgba, hsl, hsla
         lineColor: 'rgba(33, 154, 179,1)', // line color of the main circle
-        remainingLineColor: 'rgba(55, 55, 55, 0.2)', // line color of the remaining percentage (if showRemaining is true)
+        remainingLineColor: 'rgba(155, 155, 55, 0.2)', // line color of the remaining percentage (if showRemaining is true)
         lineWidth: 2, // the width of the circle line in pixels
         startFrom: 0
     });
