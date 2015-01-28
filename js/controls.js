@@ -24,22 +24,3 @@ function intializeLoader() {
     });
 }
 
-$(".btn-reset").click(function () {
-    intializeLoader();
-    $(".btn-disable").each(function () {
-        $(this).removeClass("btn-disable");
-    });
-})
-
-$(".btn").not(".btn-disable, .btn-reset").click(function () {
-    thisID = this.id;
-    incrProgress(Number(thisID));
-    $(".btn").not(".btn .btn-disable, .btn .btn-reset").each(function () {
-        if (Number(this.id) <= Number(thisID)) {
-            $(this).addClass("btn-disable");
-        }
-        else
-            return false;
-    });
-
-})
