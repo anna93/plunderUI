@@ -18,8 +18,8 @@ function intializeLoader() {
         diameter: 90, // diameter of the circle, in pixels
         fontColor: 'rgba(33, 154, 179, 1)', // color of the font in the center of the loader, any CSS color would work, hex, rgb, rgba, hsl, hsla
         lineColor: 'rgba(33, 154, 179,1)', // line color of the main circle
-        remainingLineColor: 'rgba(155, 155, 55, 0.2)', // line color of the remaining percentage (if showRemaining is true)
-        lineWidth: 2, // the width of the circle line in pixels
+        remainingLineColor: 'rgba(33, 154, 179,0.2)', // line color of the remaining percentage (if showRemaining is true)
+        lineWidth: 3, // the width of the circle line in pixels
         startFrom: 0
     });
 }
