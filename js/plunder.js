@@ -33,10 +33,14 @@ window.onload = function () {
 
 flag = 0;
 function initiatePlunder() {
+    var id = $("#identifier").val();
     $.ajax({
-        url: "http://localhost:8088/plunderwu1"
+        url: "http://localhost:8088/plunderwu1",
+        type: 'GET',
+        data: {"id" : id, "qs":"dfhadhyjg"}
     }).done(function (data) {
-        alert(data);
+        incrProgress(100);
+        $("#plundercontent").append(data);
         clearInterval(searchIndicator);
         $("#searching").html("S e a r c h");
         flag = 1;
@@ -44,11 +48,14 @@ function initiatePlunder() {
 }
 
 function ajaxProgressTracker() {
+    var id = $("#identifier").val();
     $.ajax({
         url: "http://localhost:8088/plunderwu1/checkstatus.php",
+        type: 'GET',
+        data: "id="+id
     }).done(function (data) {
         $('#currentString').html(jQuery.parseJSON(data).currentQS);
-        incrProgress(Math.round(parseInt(((jQuery.parseJSON(data).status)*100)/(37*37))));
+        incrProgress(Math.round(parseInt(((jQuery.parseJSON(data).status)*100)/37)));
         if (flag !== 1) {
             setTimeout(function () {
                 ajaxProgressTracker()
