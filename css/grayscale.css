@@ -423,7 +423,7 @@ body {
 }
 
 
-.initiateSearch {
+.initiateSearch, .narrowdown {
     width: 70px;
 }
 

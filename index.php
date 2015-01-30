@@ -135,44 +135,44 @@
                                                                                                 <br/><br/>
                                                                                                 <span style="display: none;" id="showalpha" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<small>Go Back to alphabets</small></span>                                                               <br/>
                                                                                                 <br/>
-                                                                                                <span qstring="a" class="btn btn-default btn-lg initiateSearch"><span class="network-name">A</span></span> 
-                                                                                                <span qstring="b" class="btn btn-default btn-lg initiateSearch"><span class="network-name">B</span></span>   
-                                                                                                <span qstring="c" class="btn btn-default btn-lg initiateSearch"><span class="network-name">C</span></span>
-                                                                                                <span qstring="d" class="btn btn-default btn-lg initiateSearch"><span class="network-name">D</span></span>   <br/><br/>
-                                                                                                <span qstring="e" class="btn btn-default btn-lg initiateSearch"><span class="network-name">E</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">F</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">G</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">H</span></span>   <br/><br/>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">I</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">J</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">K</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">L</span></span>   <br/><br/>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">M</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">N</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">O</span></span>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">P</span></span>   <br/><br/>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">Q</span></span> 
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">R</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">S</span></span>   
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">T</span></span>   <br/><br/>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">U</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">V</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">W</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">X</span></span>   <br/><br/>
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">Y</span></span>  
-                                                                                                <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">Z</span></span>  <br/><br/> 
+                                                                                                <span qstring="a" class="btn btn-default btn-lg narrowdown"><span class="network-name">A</span></span> 
+                                                                                                <span qstring="b" class="btn btn-default btn-lg narrowdown"><span class="network-name">B</span></span>   
+                                                                                                <span qstring="c" class="btn btn-default btn-lg narrowdown"><span class="network-name">C</span></span>
+                                                                                                <span qstring="d" class="btn btn-default btn-lg narrowdown"><span class="network-name">D</span></span>   <br/><br/>
+                                                                                                <span qstring="e" class="btn btn-default btn-lg narrowdown"><span class="network-name">E</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">F</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">G</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">H</span></span>   <br/><br/>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">I</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">J</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">K</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">L</span></span>   <br/><br/>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">M</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">N</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">O</span></span>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">P</span></span>   <br/><br/>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">Q</span></span> 
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">R</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">S</span></span>   
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">T</span></span>   <br/><br/>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">U</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">V</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">W</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">X</span></span>   <br/><br/>
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">Y</span></span>  
+                                                                                                <span class="btn btn-default btn-lg narrowdown"><span class="network-name">Z</span></span>  <br/><br/> 
                                                                                                 <div class="row extrabtn">
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch "><span class="network-name">0</span></span>  
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">1</span></span>   
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">2</span></span>
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">3</span></span>   <br/><br/>
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">4</span></span> 
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">5</span></span>   
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">6</span></span>   
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">7</span></span>   <br/><br/>
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">8</span></span>  
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">9</span></span>  <br/><br/>
-                                                                                                    <span class="btn btn-default btn-lg initiateSearch"><span class="network-name">" "</span></span>  <br/><br/>  
+                                                                                                    <span class="btn btn-default btn-lg narrowdown "><span class="network-name">0</span></span>  
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">1</span></span>   
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">2</span></span>
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">3</span></span>   <br/><br/>
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">4</span></span> 
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">5</span></span>   
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">6</span></span>   
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">7</span></span>   <br/><br/>
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">8</span></span>  
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">9</span></span>  <br/><br/>
+                                                                                                    <span class="btn btn-default btn-lg narrowdown"><span class="network-name">" "</span></span>  <br/><br/>  
                                                                                                 </div>
 
 
