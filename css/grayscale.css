@@ -421,4 +421,12 @@ body {
     pointer-events: none;
     cursor: default;
 }
-//END: Scroll Styling
+
+
+.initiateSearch {
+    width: 70px;
+}
+
+.extrabtn {
+    display: none;
+}
