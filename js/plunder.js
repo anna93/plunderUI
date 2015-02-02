@@ -5,9 +5,11 @@ $(".narrowdown").click(function () {
     $('#showalpha').css("display", "inline-block");
     $('.extrabtn').css("display", "inline-block");
     var char = $(this).children().html();
+    var i = 0;
     $('.narrowdown > .network-name').each(function () {
         $(this).fadeOut(function () {
-            $(this).html(char + $(this).html()).fadeIn();
+            $(this).html(char + chars[i]).fadeIn();
+            i++;
         });
     });
     $(".narrowdown").each(function () {
@@ -31,10 +33,15 @@ $("#showalpha").click(function () {
     $('.extrabtn').css("display", "none");
 });
 
-$("body").on("click",'.initiatesearch',function() {
+$("body").on("click", '.initiatesearch', function () {
     var content = $(this).children().html();
-    if(content.length===2)
-    alert(content);
+    if (content.length === 2) {
+        initiatePlunder(content);
+        $('#custom_carousel').carousel(2);
+        $('#custom_carousel .controls li').addClass("active");
+        $('#custom_carousel .controls li').addClass("carousel-disabled");
+        ajaxProgressTracker();
+    }
 })
 
 i = 0;
@@ -57,17 +64,18 @@ window.onload = function () {
 };
 
 flag = 0;
-function initiatePlunder() {
+function initiatePlunder(qs) {
     var id = $("#identifier").val();
     $.ajax({
         url: "http://localhost:8088/plunderwu1",
         type: 'GET',
-        data: {"id": id, "qs": "dfhadhyjg"}
+        data: {"id": id, "qs": qs}
     }).done(function (data) {
         incrProgress(100);
         $("#plundercontent").append(data);
         clearInterval(searchIndicator);
         $("#searching").html("P l u n d e r");
+        $("#currentString").html("C o m p l e t e!");
         flag = 1;
     });
 }

@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start();
+$date = date_create();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 
@@ -199,7 +201,7 @@
                                                                                     <div class="item ">
                                                                                         <div class="container-fluid">
                                                                                             <div class="row">
-                                                                                                <input id="identifier" type="hidden" value="<?php echo session_id(); ?>"/>
+                                                                                                <input id="identifier" type="hidden" value="<?php echo md5(session_id().date_format($date,'U')); ?>"/>
                                                                                                 <div class="controls">
                                                                                                     <ul class="nav">    
                                                                                                         <li style="border-top:1px #219ab3 solid" data-target="#custom_carousel" class="active"><a>
