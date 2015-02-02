@@ -71,7 +71,6 @@ function initiatePlunder(qs) {
         type: 'GET',
         data: {"id": id, "qs": qs}
     }).done(function (data) {
-        incrProgress(100);
         $("#plundercontent").append(data);
         clearInterval(searchIndicator);
         $("#searching").html("P l u n d e r");
@@ -96,6 +95,7 @@ function ajaxProgressTracker() {
         }
         else {
             $("#currentString").html("C o m p l e t e!");
+            incrProgress(100);
         }
     });
 }
