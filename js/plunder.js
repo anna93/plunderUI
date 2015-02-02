@@ -1,19 +1,6 @@
 var chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' '];
 
 
-$(".initiatesearch").click(function () {
-    $('#custom_carousel').carousel(2);
-    $('#custom_carousel .controls li').addClass("active");
-    $('#custom_carousel .controls li').addClass("carousel-disabled");
-
-
-    intializeLoader();
-    initiatePlunder();
-    ajaxProgressTracker();
-
-
-});
-
 $(".narrowdown").click(function () {
     $('#showalpha').css("display", "inline-block");
     $('.extrabtn').css("display", "inline-block");
@@ -23,23 +10,32 @@ $(".narrowdown").click(function () {
             $(this).html(char + $(this).html()).fadeIn();
         });
     });
-    $(".narrowdown").each(function() {
-       $(this).addClass('initiatesearch'); 
+    $(".narrowdown").each(function () {
+        $(this).addClass('initiatesearch');
+        $(this).removeClass('narrowdown');
     });
+
 
 });
 
 
 $("#showalpha").click(function () {
-    $(".narrowdown").each(function () {
+    $(".initiatesearch").each(function () {
         $(this).children().fadeOut(function () {
             $(this).html($(this).html()[1]).fadeIn();
         });
+        $(this).removeClass("initiatesearch");
+        $(this).addClass('narrowdown');
     });
     $('#showalpha').css("display", "none");
     $('.extrabtn').css("display", "none");
-    $(this).removeClass("initiatesearch");
 });
+
+$("body").on("click",'.initiatesearch',function() {
+    var content = $(this).children().html();
+    if(content.length===2)
+    alert(content);
+})
 
 i = 0;
 window.onload = function () {
